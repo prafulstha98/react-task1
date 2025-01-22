@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 import { RouterProvider } from 'react-router'
 
 
-export const App = () => {
+const App = () => {
   const routerFuture = createBrowserRouter([
     {
       path: '/',
@@ -31,3 +31,5 @@ export const App = () => {
   ])
   return <RouterProvider router={routerFuture}/> 
 }
+
+export default App

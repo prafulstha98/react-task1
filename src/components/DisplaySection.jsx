@@ -1,6 +1,11 @@
+import React from 'react'
+
 const DisplaySection = () => {
   return (
-    <div>DisplaySection</div>
+    <div>
+      
+    </div>
   )
 }
+
 export default DisplaySection
