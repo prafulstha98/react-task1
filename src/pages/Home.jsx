@@ -1,6 +1,11 @@
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <DisplaySection/>
+      <Tech/>
+      <Info/>
+      
+    </div>
   )
 }
 export default Home
