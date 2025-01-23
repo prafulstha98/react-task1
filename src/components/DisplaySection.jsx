@@ -3,7 +3,7 @@ import LottieAnimation from './LottieAnimation'
 
 const DisplaySection = () => {
   return (
-    <div className='grid grid-cols-2 items-center'>
+    <div className='grid grid-cols-2 items-center md:grid-cols-1 justify-center'>
 
       <div>
         <LottieAnimation/>
